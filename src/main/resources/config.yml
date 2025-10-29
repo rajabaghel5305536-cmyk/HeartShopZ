@@ -1,0 +1,15 @@
+prefix: "&#FF0000&lHEART SHOP &7»"
+messages:
+  no-permission: "&cYou are not authorized to use this command!"
+  success-single: "&aYou have successfully purchased a heart!"
+  success-plural: "&aYou have successfully purchased hearts!"
+  no-money: "&cYou don't have enough money to buy this item!"
+menu:
+  title: "&#FF0000&lHEART SHOP"
+  size: 9
+  items:
+    heart:
+      slot: 4
+      material: NETHER_STAR
+      display-name: "&cBuy Heart"
+      cost: 1000
