@@ -1,0 +1,18 @@
+name: HeartShopZ
+version: 1.0.0
+main: com.heartshopz.HeartShopZ
+api-version: 1.21
+author: Dev_Allenalt_tw
+depend: [LifestealCore]
+commands:
+  heartshop:
+    description: Open the Heart Shop menu
+    aliases: [hshop, hstore]
+    permission: heartshopz.use
+permissions:
+  heartshopz.use:
+    description: Allows use of /heartshop
+    default: true
+  heartshopz.buy:
+    description: Allows buying hearts from the shop
+    default: true
